@@ -79,7 +79,7 @@ function Home(props) {
           I want to be a <span>front end developer.</span>
         </p>
         <a
-          href="/image/header/roeungsreyden.pdf"
+          href={`${process.env.PUBLIC_URL}/image/header/roeungsreyden.pdf`}
           download=""
           className="btn btn2"
         >
@@ -87,7 +87,8 @@ function Home(props) {
         </a>
       </div>
       <div className="pro2">
-        <img src="/image/header/pro2.png" alt="" />
+        <img src={`${process.env.PUBLIC_URL}/image/header/pro2.png`}/>
+        
       </div>
     </div>
     {/* end welcome */}
@@ -186,16 +187,16 @@ function Home(props) {
         <h2>My project</h2>
         <div className="carousel">
           <div className="card" data-link="/project1.html">
-            <img src="/image/project/works.png" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/image/project/works.png`} alt="" />
           </div>
           <div className="card active" data-link="/project2.html">
-            <img src="/image/project/work2.png" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/image/project/work2.png`} alt="" />
           </div>
           <div className="card" data-link="/project3.html">
-            <img src="/image/project/work3.png" alt="" />
+            <img src= {`${process.env.PUBLIC_URL}/image/project/work3.png`}alt="" />
           </div>
           <div className="card" data-link="/project4.html">
-            <img src="/image/project/work04.png" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/image/project/work04.png`} alt="" />
           </div>
         </div>
         <div>
@@ -234,7 +235,7 @@ function Home(props) {
                   <i className="fa-brands fa-linkedin" />
                 </a>
               </div>
-              <a href="/roeungsreyden.pdf" download="" className="btn btn2 ">
+              <a href={`${process.env.PUBLIC_URL}/image/header/roeungsreyden.pdf`} download="" className="btn btn2 ">
                 Download CV
               </a>
             </div>
