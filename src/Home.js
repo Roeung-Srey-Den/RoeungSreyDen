@@ -186,16 +186,16 @@ function Home(props) {
       <div className="slide">
         <h2>My project</h2>
         <div className="carousel">
-          <div className="card" data-link="/project1.html">
+          <div className="card" >
             <img src={`${process.env.PUBLIC_URL}/image/project/works.png`} alt="" />
           </div>
-          <div className="card active" data-link="/project2.html">
+          <div className="card active" >
             <img src={`${process.env.PUBLIC_URL}/image/project/work2.png`} alt="" />
           </div>
-          <div className="card" data-link="/project3.html">
+          <div className="card" >
             <img src= {`${process.env.PUBLIC_URL}/image/project/work3.png`}alt="" />
           </div>
-          <div className="card" data-link="/project4.html">
+          <div className="card" >
             <img src={`${process.env.PUBLIC_URL}/image/project/work04.png`} alt="" />
           </div>
         </div>
