@@ -86,7 +86,7 @@ function Home(props) {
           Download CV
         </a>
       </div>
-      <div className="pro2">
+      <div className="pro2" >
         <img src={`${process.env.PUBLIC_URL}/image/header/pro2.png`}/>
         
       </div>
