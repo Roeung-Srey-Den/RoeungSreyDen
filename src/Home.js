@@ -73,13 +73,13 @@ function Home(props) {
         <p>
           My name is <span>Roeung Srey Den </span>,<br />I am a student at
           Beltei International university <br />
-          as a software Engineering Student .<br />I study in years 3 Semester2.
+          as a software Engineering Student .<br />I study in years 4 Semester2.
         </p>
-        <p>
+        {/* <p>
           I want to be a <span>front end developer.</span>
-        </p>
+        </p> */}
         <a
-          href={`${process.env.PUBLIC_URL}/image/header/roeungsreyden.pdf`}
+          href={`${process.env.PUBLIC_URL}/image/header/CURRICULUM VITAE_Roeungsreyden_por.pdf`}
           download=""
           className="btn btn2"
         >
@@ -118,7 +118,7 @@ function Home(props) {
                 <div className="service-content">
                   <div className="hh2">Education</div>
                   <p>
-                    2024 -Present : Study at BELTEI university (Software
+                    2023 -Present : Study at BELTEI university (Software
                     Engineering )
                   </p>
                   <p>
@@ -138,11 +138,11 @@ function Home(props) {
                 <div className="left-side" />
                 <div className="service-content">
                   <div className="hh2">Special Skills</div>
-                  <p>MS Office (Word/Excel/PowerPoint),Adobe Photoshop</p>
-                  <p>Coding Language: HTML ,CSS ,JAVASCRIPT ,PHP,C#</p>
-                  <p>Framework: Laravel ,React ,ASP.net</p>
+                  <p>MS Office (Word/Excel/PowerPoint),Figma</p>
+                  <p>Coding Language: HTML ,CSS ,JAVASCRIPT ,PHP,PYTHON</p>
+                  <p>Framework: Laravel ,React ,Nuxt</p>
                   <p>Library: Bootstrap ,Tailwind</p>
-                  <p>Database : SQL Server ,Oracle ,MySql</p>
+                  <p>Database : SQL Server ,Oracle ,MySql,Postgresql</p>
                 </div>
               </div>
             </div>
@@ -235,7 +235,7 @@ function Home(props) {
                   <i className="fa-brands fa-linkedin" />
                 </a>
               </div>
-              <a href={`${process.env.PUBLIC_URL}/image/header/roeungsreyden.pdf`} download="" className="btn btn2 ">
+              <a href={`${process.env.PUBLIC_URL}/image/header/CURRICULUM VITAE_Roeungsreyden_por.pdf`} download="" className="btn btn2 ">
                 Download CV
               </a>
             </div>

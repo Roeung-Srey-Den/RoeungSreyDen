@@ -65,9 +65,9 @@ function App() {
           beltei international university <br />
           as a software Engineering Student .<br />I study in years 4 Semester2.
         </p>
-        <p>
+        {/* <p>
           I want to be a <span>front end developer.</span>
-        </p>
+        </p> */}
         <a
           href="/assets/image/header/CURRICULUM VITAE_Roeungsreyden_por.pdf"
           download=""
